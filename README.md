@@ -24,19 +24,6 @@ CodePolyglot 可以生成代码分析报告
 - **⚙️ 灵活使用**：提供命令行接口(CLI)与模块化API，易于集成。
 
 ---
-项目结构：
-CodePolyglot/
-├── src/                    # 源代码
-│   ├── core/              # 核心分析器 (AST解析， NLP处理)
-│   ├── visualization/     # 可视化报告生成 (基于Plotly)
-│   └── web/               # (可选) Flask网页应用
-├── tests/                 # 单元测试
-├── docs/                  # 项目文档
-├── main.py                # 命令行主入口
-├── config.json            # 配置文件
-├── requirements.txt       # Python依赖列表
-└── README.md              # 本文件
----
 命令行使用：
 # 分析单个文件，输出JSON结果
 python main.py analyze path/to/your_code.py --output json
